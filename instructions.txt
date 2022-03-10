@@ -1,0 +1,40 @@
+Inspired from the tutorial
+https://www.youtube.com/watch?v=u2xzkfaT1BI&list=PLQfqQHJBFM18zcPVbRUIuJYCnytKG4oSn&index=32
+
+➜  ~ node -
+Welcome to Node.js v17.3.0.
+Type ".help" for more information.
+>
+➜  ~ npm -v
+8.5.0
+➜  ~  ionic -v
+6.18.1
+
+# Simple UI templates available at the following url
+https://ionic-toolkit.netlify.app/
+You can cut and paste HTML code from here for the app
+
+mkdir HealthWoman
+cd HealthWoman
+ionic start 
+# interactive genetation. Angular
+ionic start HealthWoman blank --type=angular
+code .
+ionic serve
+
+ionic generate page home
+ionic generate page pages/cycle
+ionic generate page pages/ovulation
+ionic generate page pages/pregnancy
+ionic generate page pages/infertility
+ionic generate page pages/safe-period
+ionic generate page pages/contact
+
+mkdir src/assets/images
+mv src/assets/profile.jpg src/assets/images
+
+# to start and open it in browser
+ionic serve -l
+
+
+

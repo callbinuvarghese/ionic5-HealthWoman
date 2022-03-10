@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar color="primary">
+      <ion-title>Home | Healthy Women</ion-title>
+      <!-- Menu Icon -->
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- Top Grid Menu -->
+  <ion-card>
+    <ion-grid>
+        <ion-row class="ion-text-center">
+            <ion-col size="4" routerLink="/cycle">
+                <ion-icon name="body" color="danger" size="large"></ion-icon>
+                <p>Mens Cycle</p>
+            </ion-col>
+            <ion-col size="4" routerLink="/ovulation">
+                <ion-icon name="bag-add" color="tertiary" size="large"></ion-icon>
+                <p>Ovulation</p>
+            </ion-col>
+            <ion-col size="4" routerLink="/safe-period">
+                <ion-icon name="keypad" color="danger" size="large"></ion-icon>
+                <p>Safe Period</p>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <div style="width: 100%; border-top: 1px solid #d4d4d4; margin: 8px 0;"></div>
+    <ion-grid>
+      <ion-row class="ion-text-center">
+          <ion-col size="4" routerLink="/pregnancy">
+              <ion-icon name="fitness" color="tertiary" size="large"></ion-icon>
+              <p>Pregnancy</p>
+          </ion-col>
+          <ion-col size="4" routerLink="/infertility">
+              <ion-icon name="expand" color="danger" size="large"></ion-icon>
+              <p>Infertility</p>
+          </ion-col>
+          <ion-col size="4" routerLink="/page3">
+              <ion-icon name="chatbox" color="tertiary" size="large"></ion-icon>
+              <p>Contact</p>
+          </ion-col>
+      </ion-row>
+  </ion-grid>
+  </ion-card>
+
+  <!-- Card -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Menstrual Cycle</ion-card-title>
+      <ion-card-subtitle>Understanding your menstrual cyle</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-img src="/assets/images/girl.jpg"></ion-img>
+      <ion-button color="primary" routerLink="/cycle" expand="block">Learn More</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
